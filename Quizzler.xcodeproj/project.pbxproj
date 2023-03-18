@@ -16,6 +16,7 @@
 		2814E4E52989540200FB94A7 /* ViewControllerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814E4E42989540100FB94A7 /* ViewControllerPresentable.swift */; };
 		2814E4E9298A732A00FB94A7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814E4E8298A732A00FB94A7 /* Question.swift */; };
 		2814E4EC298AB60500FB94A7 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814E4EB298AB60500FB94A7 /* QuizBrain.swift */; };
+		286F25A029C5A28C0018B7F8 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 286F259F29C5A28C0018B7F8 /* screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2814E4E42989540100FB94A7 /* ViewControllerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPresentable.swift; sourceTree = "<group>"; };
 		2814E4E8298A732A00FB94A7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		2814E4EB298AB60500FB94A7 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		286F259F29C5A28C0018B7F8 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		2814E4C42989534700FB94A7 = {
 			isa = PBXGroup;
 			children = (
+				286F259E29C5A26F0018B7F8 /* ReadmeResources */,
 				2814E4CF2989534700FB94A7 /* Quizzler */,
 				2814E4CE2989534700FB94A7 /* Products */,
 			);
@@ -82,6 +85,14 @@
 				2814E4EB298AB60500FB94A7 /* QuizBrain.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		286F259E29C5A26F0018B7F8 /* ReadmeResources */ = {
+			isa = PBXGroup;
+			children = (
+				286F259F29C5A28C0018B7F8 /* screen.png */,
+			);
+			path = ReadmeResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2814E4DD2989534900FB94A7 /* LaunchScreen.storyboard in Resources */,
+				286F25A029C5A28C0018B7F8 /* screen.png in Resources */,
 				2814E4DA2989534900FB94A7 /* Assets.xcassets in Resources */,
 				2814E4D82989534700FB94A7 /* Main.storyboard in Resources */,
 			);
